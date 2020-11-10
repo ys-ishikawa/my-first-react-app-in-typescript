@@ -1,15 +1,15 @@
 import React from 'react';
+import Counter from './Counter';
 
 interface AppProps {
   message?: string;
   description?: string;
 }
 
-const App: React.FunctionComponent<AppProps> = ({ message, description }) => {
+const App: React.FunctionComponent<AppProps> = () => {
   return (
     <div>
-      <p>{ message }</p>
-      <p>{ description }</p>
+      <Counter />
     </div>
   );
 };
