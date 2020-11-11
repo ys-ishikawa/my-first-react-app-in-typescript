@@ -16,7 +16,7 @@ const App: React.FunctionComponent<AppProps> = () => {
 
 App.defaultProps = {
   message: 'Hello TypeScript!',
-  description: 'This is App component.'
-}
+  description: 'This is App component.',
+};
 
 export default App;
